@@ -4,7 +4,6 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int main(int argc, char *argv[]) {
 	int ladoa, ladob, ladoc;
 
     printf("Ingrese el primer lado del triangulo: ");
@@ -21,15 +20,8 @@ int main(int argc, char *argv[]) {
         if (((ladoa == ladob )||(ladob==ladoc) || (ladoa == ladoc)) && (((ladoa != ladoc)||(ladob != ladoc))||(ladoa != ladob)))
         printf("Su triangulo es un triangulo isosceles.");
         else{
-        	if(ladoa != ladob && ladob != ladoc)
-	
         printf("Su triangulo es un triangulo escaleno");
-        }
-    }
-	
-	return 0;
-	
-}
-	
+    	}
+    }	
 	return 0;
 }
